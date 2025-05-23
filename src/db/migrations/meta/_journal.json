@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1747852369093,
+      "tag": "0000_first_puma",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1747857484401,
+      "tag": "0001_zippy_wendigo",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1747857634433,
+      "tag": "0002_organic_zeigeist",
+      "breakpoints": true
+    }
+  ]
+}
