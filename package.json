@@ -5,7 +5,9 @@
     "dev": "bun run --hot src/index.ts",
     "lint": "eslint .",
     "lint:fix": "bun run lint --fix",
-    "test": "LOG_LEVEL=silent vitest"
+    "test": "LOG_LEVEL=silent vitest",
+    "build": "bun build src/index.ts --outdir ./dist --target bun",
+    "start": "bun ./dist/index.js"
   },
   "dependencies": {
     "@asteasolutions/zod-to-openapi": "^7.3.0",
